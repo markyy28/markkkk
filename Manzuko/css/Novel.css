@@ -1,0 +1,136 @@
+* SearchBar */
+
+.container-fluid-searchbar{
+  padding:;
+}
+.header-1{
+display: flex;
+align-items: center;
+justify-content: space-between;
+background:#fff;
+width: 100%;
+padding:10px 20px;
+}
+
+ form {
+  width: 550px;
+  height: 40px;
+  display: flex;
+  font-family: 'Times New Roman', Serif;
+  font-size: 10px;
+  border: 1px solid black;
+  margin-right: 160px;
+  margin-top: 20px;
+
+}
+
+input {
+   flex: 1;
+ }
+
+ #searchbar{
+   margin-top: 10px;
+   margin-bottom: 20px;
+
+ }
+button {
+   background-color: #0D701D;
+   padding: 5px 15px;
+   letter-spacing: 1px;
+   cursor: pointer;
+   color: white;
+   font-size: 12px;
+   border: none;
+ }
+
+/* Logo */
+.manzuko-logo{
+margin-left: 120px;
+margin-top: 20px;
+}
+
+/* Icons */
+.nav-cart{
+  color: black;
+ margin-top: 20px;
+ position: relative;
+ right: 150px;
+}
+
+.nav-fav{
+  color: black;
+  margin-top: 20px;
+  position: relative;
+  right: 170px;
+}
+
+.nav-message{
+  color: black;
+  margin-top: 20px;
+  position: relative;
+  right: 180px;
+}
+
+.nav-profile{
+  color: black;
+  position: relative;
+  right: 170px;
+  margin-top: 20px;
+}
+.fa-cart-plus:hover{
+  color: #0D701D;
+}
+.fa-heart:hover{
+  color: #0D701D;
+}
+.fa-comment-dots:hover{
+  color: #0D701D;
+}
+.fa-user-circle:hover{
+  color: #0D701D;
+}
+
+
+@media (max-width: 1028px){
+#searchbar {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;}
+  }
+/* NavBar */
+
+.nav-item{
+  padding-right: 70px;
+
+}
+.nav-link{
+  color: white;
+  font-family: 'Times New Roman', Serif;
+}
+.nav-link:hover{
+  color: #424B43;
+}
+.navbar-nav{
+margin-left: 280px;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  }
+
+  .navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    position: right;
+  }

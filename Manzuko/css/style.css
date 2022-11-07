@@ -1,0 +1,812 @@
+
+/* SearchBar */
+
+.container-fluid-searchbar{
+  padding:;
+}
+.header-1{
+display: flex;
+align-items: center;
+justify-content: space-between;
+background:#fff;
+width: 100%;
+padding:10px 20px;
+}
+
+ form {
+  width: 550px;
+  height: 40px;
+  display: flex;
+  font-family: 'Times New Roman', Serif;
+  font-size: 10px;
+  border: 1px solid black;
+  margin-right: 160px;
+  margin-top: 20px;
+
+}
+
+input {
+   flex: 1;
+ }
+
+ #searchbar{
+   margin-top: 10px;
+   margin-bottom: 20px;
+
+ }
+button {
+   background-color: #0D701D;
+   padding: 5px 15px;
+   letter-spacing: 1px;
+   cursor: pointer;
+   color: white;
+   font-size: 12px;
+   border: none;
+ }
+
+/* Logo */
+.manzuko-logo{
+margin-left: 120px;
+margin-top: 20px;
+}
+
+/* Icons */
+.nav-cart{
+  color: black;
+ margin-top: 20px;
+ position: relative;
+ right: 150px;
+}
+
+.nav-fav{
+  color: black;
+  margin-top: 20px;
+  position: relative;
+  right: 170px;
+}
+
+.nav-message{
+  color: black;
+  margin-top: 20px;
+  position: relative;
+  right: 180px;
+}
+
+.nav-profile{
+  color: black;
+  position: relative;
+  right: 170px;
+  margin-top: 20px;
+}
+.fa-cart-plus:hover{
+  color: #0D701D;
+}
+.fa-heart:hover{
+  color: #0D701D;
+}
+.fa-comment-dots:hover{
+  color: #0D701D;
+}
+.fa-user-circle:hover{
+  color: #0D701D;
+}
+
+
+@media (max-width: 1028px){
+#searchbar {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;}
+  }
+/* NavBar */
+
+.nav-item{
+  padding-right: 70px;
+
+}
+.nav-link{
+  color: white;
+  font-family: 'Times New Roman', Serif;
+}
+.nav-link:hover{
+  color: #424B43;
+}
+.navbar-nav{
+margin-left: 280px;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  }
+
+  .navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    position: right;
+  }
+
+
+/* Hot This Week */
+
+#DailyFeatures{
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.hot-text{
+  margin-top: 80px;
+  margin-left: 500px;
+  font-family: 'Calibri', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.lines{
+  border: 3px solid green;
+  margin-left: 465px;
+  margin-right: 475px;
+  margin-top: 1px;
+}
+
+.hot-feature{
+  margin-left: 535px;
+  font-family: 'Calibri', sans-serif;
+  font-weight: italic;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.boxed-hot {
+  border: 1px solid black ;
+  background-color: #424B43;
+  margin-top: 80px;
+  margin-left: 180px;
+  margin-right: 100px;
+  width: 1000px;
+  height: 500px
+}
+.boxed{
+  border: 1px solid white ;
+  background-color: white;
+  position: absolute;
+  top: 500px;
+  left: 60px;
+  margin-left: 180px;
+  margin-right: 100px;
+  width: 303px;
+  height: 444px
+}
+.hot-manga{
+  border: 1px solid white ;
+  background-color: white;
+  position: absolute;
+  top: 510px;
+  left: 70px;
+  margin-left: 180px;
+  margin-right: 100px;
+}
+.spy-title{
+  position: absolute;
+  top: 570px;
+  left: 470px;
+  margin-left: 180px;
+  margin-right: 100px;
+  color: red;
+  font-weight: bold;
+  font-family: 'Calibri', sans-serif;
+}
+.spy-genre{
+  position: absolute;
+  top: 610px;
+  left: 470px;
+  right: 180px;
+  margin-left: 180px;
+  margin-right: 100px;
+  color: white;
+  font-family: 'Calibri', sans-serif;
+  font-size: 14px;
+  text-align: justify;
+}
+.spy-info{
+  position: absolute;
+  top: 680px;
+  left: 470px;
+  right: 180px;
+  margin-left: 180px;
+  margin-right: 100px;
+  color: white;
+  font-family: 'Calibri', sans-serif;
+  font-size: 20px;
+  text-align: justify;
+}
+.button-spy{
+  border-radius: 20px;
+  position: absolute;
+  top: 860px;
+  left: 470px;
+  right: 180px;
+  margin-left: 180px;
+  margin-right: 100px;
+  width: 150px;
+  height: 40px;
+  font-family: 'Calibri', sans-serif;
+  font-size: 12px;
+}
+
+/* Hot This November */
+
+#HotNov{
+ padding-bottom: 1000px;
+}
+.hot-nov{
+  margin-top: 150px;
+  margin-left: 450px;
+  font-family: 'Calibri', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+
+}
+.lines-nov{
+  border: 3px solid darkgreen;
+  margin-left: 420px;
+  margin-right: 430px;
+  margin-top: 1px;
+}
+.nov-feature{
+  margin-left: 535px;
+  font-family: 'Calibri', sans-serif;
+  font-weight: italic;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+/* Hot This November Box */
+
+.boxed-kaiju{
+  border: 1px solid black ;
+  background-color: transparent;
+  position: absolute;
+  top: 1300px;
+  left: 150px;
+  width: 270px;
+  height: 470px
+}
+.boxed-sakamoto{
+  border: 1px solid black ;
+  background-color: transparent;
+  position: absolute;
+  top: 1300px;
+  left: 540px;
+  width: 270px;
+  height: 470px
+}
+.boxed-yozakura{
+  border: 1px solid black ;
+  background-color: transparent;
+  position: absolute;
+  top: 1300px;
+  left: 930px;
+  width: 270px;
+  height: 470px
+}
+.boxed-dan{
+  border: 1px solid black ;
+  background-color: transparent;
+  position: absolute;
+  top: 1850px;
+  left: 150px;
+  width: 270px;
+  height: 470px
+}
+.boxed-fire{
+  border: 1px solid black ;
+  background-color: transparent;
+  position: absolute;
+  top: 1850px;
+  left: 540px;
+  width: 270px;
+  height: 470px
+}
+.boxed-mha{
+  border: 1px solid black ;
+  background-color: transparent;
+  position: absolute;
+  top: 1850px;
+  left: 930px;
+  width: 270px;
+  height: 470px
+}
+
+/* Kaiju Vol4 */
+
+.nov-kaiju4{
+  top: 1300px;
+  left: 150px;
+  position: absolute;
+}
+.nav-cart-kaiju4{
+  color: black;
+ margin-top: 20px;
+ position: absolute;
+ right: 150px;
+}
+
+.nav-fav-kaiju4{
+  color: black;
+  margin-top: 20px;
+  position: absolute;
+  top: 1690px;
+  left: 220px;
+}
+.nav-cart-kaiju4{
+  color: black;
+  margin-top: 20px;
+  position: absolute;
+  top: 1690px;
+  left: 290px;
+}
+.button-kaiju4{
+  border-radius: 20px;
+  position: absolute;
+  top: 1640px;
+  left: 210px;
+  right: 180px;
+  width: 150px;
+  height: 40px;
+  font-family: 'Calibri', sans-serif;
+  font-size: 14px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+/* Sakamoto 4 */
+
+  .nov-sakamoto4{
+    top: 1300px;
+    left: 540px;
+    position: absolute;
+  }
+  .nav-fav-sakamoto4{
+    color: black;
+    margin-top: 20px;
+    position: absolute;
+    top: 1690px;
+    left: 610px;
+  }
+  .nav-cart-sakamoto4{
+    color: black;
+    margin-top: 20px;
+    position: absolute;
+    top: 1690px;
+    left: 680px;
+  }
+  .button-sakamoto4{
+    border-radius: 20px;
+    position: absolute;
+    top: 1640px;
+    left: 600px;
+    right: 190px;
+    width: 150px;
+    height: 40px;
+    font-family: 'Calibri', sans-serif;
+    font-size: 14px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+  }
+
+  /* yazakura 1 */
+  .nov-yozakura1{
+    top: 1300px;
+    left: 930px;
+    position: absolute;
+  }
+  .nav-fav-yozakura1{
+    color: black;
+    margin-top: 20px;
+    position: absolute;
+    top: 1690px;
+    left: 1000px;
+  }
+  .nav-cart-yozakura1{
+    color: black;
+    margin-top: 20px;
+    position: absolute;
+    top: 1690px;
+    left: 1070px;
+  }
+  .button-yozakura1{
+    border-radius: 20px;
+    position: absolute;
+    top: 1640px;
+    left: 990px;
+    right: 190px;
+    width: 150px;
+    height: 40px;
+    font-family: 'Calibri', sans-serif;
+    font-size: 14px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+  }
+
+  /* dandadan 1 */
+  .nov-dandadan1{
+    top: 1850px;
+    left: 150px;
+    position: absolute;
+  }
+  .nav-fav-dandadan1{
+    color: black;
+    margin-top: 20px;
+    position: absolute;
+    top: 2245px;
+    left: 220px;
+  }
+  .nav-cart-dandadan1{
+    color: black;
+    margin-top: 20px;
+    position: absolute;
+    top: 2245px;
+    left: 295px;
+  }
+  .button-dandadan1{
+    border-radius: 20px;
+    position: absolute;
+    top: 2190px;
+    left: 210px;
+    right: 190px;
+    width: 150px;
+    height: 40px;
+    font-family: 'Calibri', sans-serif;
+    font-size: 14px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+  }
+
+  /* fire force 29 */
+  .nov-fire29{
+    top: 1850px;
+    left: 540px;
+    position: absolute;
+  }
+  .nav-fav-fire29{
+    color: black;
+    margin-top: 20px;
+    position: absolute;
+    top: 2245px;
+    left: 615px;
+  }
+  .nav-cart-fire29{
+    color: black;
+    margin-top: 20px;
+    position: absolute;
+    top: 2245px;
+    left: 685px;
+  }
+  .button-fire29{
+    border-radius: 20px;
+    position: absolute;
+    top: 2190px;
+    left: 600px;
+    right: 190px;
+    width: 150px;
+    height: 40px;
+    font-family: 'Calibri', sans-serif;
+    font-size: 14px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+  }
+
+  /* MHA 32 */
+  .nov-mha1{
+    top: 1850px;
+    left: 930px;
+    position: absolute;
+  }
+  .nav-fav-mha1{
+    color: black;
+    margin-top: 20px;
+    position: absolute;
+    top: 2245px;
+    left: 1000px;
+  }
+  .nav-cart-mha1{
+    color: black;
+    margin-top: 20px;
+    position: absolute;
+    top: 2245px;
+    left: 1070px;
+  }
+  .button-mha1{
+    border-radius: 20px;
+    position: absolute;
+    top: 2190px;
+    left: 990px;
+    right: 190px;
+    width: 150px;
+    height: 40px;
+    font-family: 'Calibri', sans-serif;
+    font-size: 14px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+  }
+
+  /* ADS */
+  .boxed-ads {
+    border: 1px solid black ;
+    background-color: #424B43;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    margin-left: 75px;
+    margin-right: 100px;
+    width: 1200px;
+    height: 400px
+  }
+  .ads-text{
+    font-family: 'Copper', Serif;
+    position: absolute;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 700px;
+    top: 1880px;
+    left: 200px;
+    margin-left: 180px;
+    margin-right: 100px;
+    color: white;
+    font-weight: bold;
+  }
+  .ads-info{
+    font-family: 'Calibri', sans-serif;
+    position: absolute;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 750px;
+    top: 1875px;
+    left: 280px;
+    margin-left: 180px;
+    margin-right: 100px;
+    color: white;
+    font-weight: bold;
+  }
+  .button-info{
+    border-radius: 20px;
+    position: absolute;
+    top: 2700px;
+    left: 550px;
+    right: 190px;
+    width: 180px;
+    height: 40px;
+    font-family: 'Calibri', sans-serif;
+    font-size: 14px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    text-align: left;
+  }
+  .moreinfo-icon{
+    color: black;
+    margin-top: 20px;
+    position: absolute;
+    top: 2690px;
+    left: 700px;
+  }
+
+/* Price */
+
+  .price-text{
+    margin-top: 80px;
+    margin-left: 460px;
+    font-family: 'Calibri', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+  }
+
+  .lines-price{
+    border: 3px solid green;
+    margin-left: 430px;
+    margin-right: 460px;
+    margin-top: 1px;
+  }
+
+  .price-feature{
+    margin-left: 490px;
+    font-family: 'Calibri', sans-serif;
+    font-weight: italic;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .price-feature2{
+    margin-left: 380px;
+    font-family: 'Calibri', sans-serif;
+    font-weight: italic;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .boxed-viz{
+    border: 1px solid black ;
+    background-color: transparent;
+    position: absolute;
+    top: 3190px;
+    left: 80px;
+    width: 270px;
+    height: 260px;
+  }.boxed-kodansha{
+    border: 1px solid black ;
+    background-color: transparent;
+    position: absolute;
+    top: 3190px;
+    left: 390px;
+    width: 270px;
+    height: 260px
+  }.boxed-yen{
+    border: 1px solid black ;
+    background-color: transparent;
+    position: absolute;
+    top: 3190px;
+    left: 700px;
+    width: 270px;
+    height: 260px
+  }.boxed-seas{
+    border: 1px solid black ;
+    background-color: transparent;
+    position: absolute;
+    top: 3190px;
+    left: 1010px;
+    width: 270px;
+    height: 260px
+  }
+  .price-viz{
+    position: absolute;
+    top: 3230px;
+    left: 105px;
+  }
+  .price-kodansha{
+    position: absolute;
+    top: 3230px;
+    left: 410px;
+  }
+  .price-yen{
+    position: absolute;
+    top: 3220px;
+    left: 740px;
+  }
+.price-seas{
+  position: absolute;
+  top: 3220px;
+  left: 1065px;
+}
+.viz{
+  position: absolute;
+  top: 3390px;
+  left: 135px;
+  font-family: 'Calibri', sans-serif;
+  font-weight: bold;
+}
+.kodansha{
+  position: absolute;
+  top: 3390px;
+  left: 445px;
+  font-family: 'Calibri', sans-serif;
+  font-weight: bold;
+}
+.yen{
+  position: absolute;
+  top: 3390px;
+  left: 755px;
+  font-family: 'Calibri', sans-serif;
+  font-weight: bold;
+}
+.seven{
+  position: absolute;
+  top: 3390px;
+  left: 1065px;
+  font-family: 'Calibri', sans-serif;
+  font-weight: bold;
+}
+/* FOOTER SECTION */
+.footer {
+  padding:50px 0;
+  color:black;
+  background-color: #373937;
+  margin-top: 540px;
+  height: 400px;
+}
+.Visit-us{
+color: white;
+font-family: 'Calibri', sans-serif;
+font-weight: bold;
+}
+.visit{
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 270px;
+}
+
+.Loc{
+  margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 240px;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+.about-icon{
+  color: #0D701D;
+}
+.fa-map-marker-alt:hover{
+  color: white;
+}
+.fa-envelope:hover{
+  color: white;
+}.fa-facebook-square:hover{
+  color: white;
+}.fa-phone-square-alt:hover{
+  color: white;
+}
+
+.Support-fot{
+  color: white;
+  font-family: 'Calibri', sans-serif;
+  font-weight: bold;
+  margin-left: 560px;
+  top: 3740px;
+  position: absolute;
+
+}
+.support{
+  font-weight: bold;
+  font-size: 30px;
+ bottom: 190px;
+ padding-left: 230px;
+ position: absolute;
+
+}
+.Sup{
+  margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    margin-top: 2px;
+    margin-left: 200px;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+.L{
+  text-decoration: none;
+}
+.Sup:hover{
+  color: #0D701D;
+}
+.copyright{
+  font-family: 'Calibri', sans-serif;
+  font-weight: bold;
+  color: white;
+  padding-top: 30px;
+  padding-left: 280px;
+}.name{
+  font-family: 'Calibri', sans-serif;
+  font-weight: bold;
+  color: white;
+  padding-left: 550px;
+
+}
